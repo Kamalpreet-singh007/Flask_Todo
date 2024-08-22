@@ -1,0 +1,28 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: beige;
+}
+h1{
+    color: red;
+}
+.content{
+    display: grid;
+    place-content: center;
+}
+tr, td{
+    border: #333 ridge 2px;
+    padding: 2rem;
+}
+th{
+    border: #333 ridge 4px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
